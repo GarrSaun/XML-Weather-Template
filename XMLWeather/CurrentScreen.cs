@@ -43,7 +43,7 @@ namespace XMLWeather
             {
                 conditionBox.Image = XMLWeather.Properties.Resources.light_rain;
             }
-            //Light Rain
+            //Snow
             else if (Convert.ToInt16(Form1.days[0].conditionNumber) > 599 && Convert.ToInt16(Form1.days[0].conditionNumber) < 700)
             {
                 conditionBox.Image = XMLWeather.Properties.Resources.snow;

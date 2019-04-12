@@ -61,7 +61,7 @@ namespace XMLWeather
             {
                 return XMLWeather.Properties.Resources.light_rain;
             }
-            //Light Rain
+            //Snow
             else if (code > 599 && code < 700)
             {
                 return XMLWeather.Properties.Resources.snow;
