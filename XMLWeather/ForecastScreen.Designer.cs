@@ -109,7 +109,7 @@
             this.date1.AutoSize = true;
             this.date1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date1.ForeColor = System.Drawing.Color.White;
-            this.date1.Location = new System.Drawing.Point(85, 84);
+            this.date1.Location = new System.Drawing.Point(96, 84);
             this.date1.Name = "date1";
             this.date1.Size = new System.Drawing.Size(44, 20);
             this.date1.TabIndex = 64;
@@ -121,7 +121,7 @@
             this.date2.AutoSize = true;
             this.date2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date2.ForeColor = System.Drawing.Color.White;
-            this.date2.Location = new System.Drawing.Point(85, 177);
+            this.date2.Location = new System.Drawing.Point(98, 177);
             this.date2.Name = "date2";
             this.date2.Size = new System.Drawing.Size(44, 20);
             this.date2.TabIndex = 69;
@@ -155,7 +155,7 @@
             this.date3.AutoSize = true;
             this.date3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date3.ForeColor = System.Drawing.Color.White;
-            this.date3.Location = new System.Drawing.Point(85, 265);
+            this.date3.Location = new System.Drawing.Point(100, 265);
             this.date3.Name = "date3";
             this.date3.Size = new System.Drawing.Size(44, 20);
             this.date3.TabIndex = 70;

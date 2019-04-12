@@ -26,7 +26,7 @@ namespace XMLWeather
             double code2 = Convert.ToDouble(Form1.days[1].conditionNumber);
             double code3 = Convert.ToDouble(Form1.days[2].conditionNumber);
 
-            date1.Text = Form1.days[0].date;
+            date1.Text = DateTime.Now.ToString("dddd");
             min1.Text = "Min: " + Convert.ToDouble(Form1.days[0].tempLow).ToString("0.") + "°C";
             max1.Text = "Max: " + Convert.ToDouble(Form1.days[0].tempHigh).ToString("0.") + "°C";
             #region Image
@@ -57,7 +57,7 @@ namespace XMLWeather
             }
             #endregion
 
-            date2.Text = Form1.days[1].date;
+            date2.Text = DateTime.Now.AddDays(1).DayOfWeek.ToString();
             min2.Text = "Min: " + Convert.ToDouble(Form1.days[1].tempLow).ToString("0.") + "°C";
             max2.Text = "Max: " + Convert.ToDouble(Form1.days[1].tempHigh).ToString("0.") + "°C";
             #region Second Image
@@ -88,7 +88,7 @@ namespace XMLWeather
             }
             #endregion
 
-            date3.Text = Form1.days[2].date;
+            date3.Text = DateTime.Now.AddDays(2).DayOfWeek.ToString();
             min3.Text = "Min: " + Convert.ToDouble(Form1.days[2].tempLow).ToString("0.") + "°C";
             max3.Text = "Max: " + Convert.ToDouble(Form1.days[2].tempHigh).ToString("0.") + "°C";
             #region Third Image

@@ -36,9 +36,6 @@ namespace XMLWeather
             {
                 Day d = new Day();
 
-                //Date
-                reader.ReadToFollowing("time");
-                d.date = reader.GetAttribute("day");
                 //Conditions
                 reader.ReadToFollowing("symbol");
                 d.conditionNumber = reader.GetAttribute("number");
