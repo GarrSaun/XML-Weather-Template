@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Name: Weather App
+//Author: Garrett Saunders
+//Date: 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -41,7 +41,11 @@
             this.max3 = new System.Windows.Forms.Label();
             this.min3 = new System.Windows.Forms.Label();
             this.conditions1 = new System.Windows.Forms.PictureBox();
+            this.conditions2 = new System.Windows.Forms.PictureBox();
+            this.conditions3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.conditions1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.conditions2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.conditions3)).BeginInit();
             this.SuspendLayout();
             // 
             // forecastLabel
@@ -53,7 +57,7 @@
             this.forecastLabel.Name = "forecastLabel";
             this.forecastLabel.Size = new System.Drawing.Size(83, 28);
             this.forecastLabel.TabIndex = 62;
-            this.forecastLabel.Text = "7 Day";
+            this.forecastLabel.Text = "3 Day";
             // 
             // label3
             // 
@@ -190,11 +194,33 @@
             this.conditions1.TabIndex = 75;
             this.conditions1.TabStop = false;
             // 
+            // conditions2
+            // 
+            this.conditions2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.conditions2.Location = new System.Drawing.Point(27, 201);
+            this.conditions2.Name = "conditions2";
+            this.conditions2.Size = new System.Drawing.Size(63, 46);
+            this.conditions2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.conditions2.TabIndex = 76;
+            this.conditions2.TabStop = false;
+            // 
+            // conditions3
+            // 
+            this.conditions3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.conditions3.Location = new System.Drawing.Point(27, 288);
+            this.conditions3.Name = "conditions3";
+            this.conditions3.Size = new System.Drawing.Size(63, 46);
+            this.conditions3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.conditions3.TabIndex = 77;
+            this.conditions3.TabStop = false;
+            // 
             // ForecastScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.conditions3);
+            this.Controls.Add(this.conditions2);
             this.Controls.Add(this.conditions1);
             this.Controls.Add(this.min3);
             this.Controls.Add(this.max3);
@@ -211,6 +237,8 @@
             this.Name = "ForecastScreen";
             this.Size = new System.Drawing.Size(250, 400);
             ((System.ComponentModel.ISupportInitialize)(this.conditions1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.conditions2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.conditions3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -231,5 +259,7 @@
         private System.Windows.Forms.Label max3;
         private System.Windows.Forms.Label min3;
         private System.Windows.Forms.PictureBox conditions1;
+        private System.Windows.Forms.PictureBox conditions2;
+        private System.Windows.Forms.PictureBox conditions3;
     }
 }

@@ -61,7 +61,7 @@
             this.maxOutput.AutoSize = true;
             this.maxOutput.Font = new System.Drawing.Font("Mongolian Baiti", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxOutput.ForeColor = System.Drawing.Color.White;
-            this.maxOutput.Location = new System.Drawing.Point(188, 253);
+            this.maxOutput.Location = new System.Drawing.Point(181, 253);
             this.maxOutput.Name = "maxOutput";
             this.maxOutput.Size = new System.Drawing.Size(25, 11);
             this.maxOutput.TabIndex = 31;
@@ -118,7 +118,7 @@
             this.forecastLabel.Name = "forecastLabel";
             this.forecastLabel.Size = new System.Drawing.Size(83, 28);
             this.forecastLabel.TabIndex = 41;
-            this.forecastLabel.Text = "7 Day";
+            this.forecastLabel.Text = "3 Day";
             this.forecastLabel.Click += new System.EventHandler(this.forecastLabel_Click);
             // 
             // label5
@@ -137,7 +137,7 @@
             this.dateLabel.AutoSize = true;
             this.dateLabel.Font = new System.Drawing.Font("Mongolian Baiti", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateLabel.ForeColor = System.Drawing.Color.White;
-            this.dateLabel.Location = new System.Drawing.Point(95, 80);
+            this.dateLabel.Location = new System.Drawing.Point(98, 80);
             this.dateLabel.Name = "dateLabel";
             this.dateLabel.Size = new System.Drawing.Size(26, 11);
             this.dateLabel.TabIndex = 44;

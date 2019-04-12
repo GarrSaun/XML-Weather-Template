@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Name: Weather App
+//Author: Garrett Saunders
+//Date: 
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
@@ -21,9 +24,9 @@ namespace XMLWeather
         {
             dateLabel.Text = Form1.days[0].date;
             cityOutput.Text = Form1.days[0].location;
-            tempLabel.Text = Form1.days[0].currentTemp + "’C";
-            minOutput.Text = Form1.days[0].tempLow + "’C";
-            maxOutput.Text = Form1.days[0].tempHigh + "’C";
+            tempLabel.Text = Form1.days[0].currentTemp + "°C";
+            minOutput.Text = Form1.days[0].tempLow + "°C";
+            maxOutput.Text = Form1.days[0].tempHigh + "°C";
 
             //Thunder
             if (Convert.ToInt16(Form1.days[0].conditionNumber) > 199 && Convert.ToInt16(Form1.days[0].conditionNumber) < 300)
